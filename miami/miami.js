@@ -50,10 +50,15 @@ app.get('/basic',(req,res) =>{
     res.render('page',{req})
 })
 
-//Newsletter
+//Newsletter Routes
 app.get('/newsletter-signup', handler.newsletterSignup)
 app.post('/newsletter-signup/process', handler.newsletterSignupProcess)
 app.get('/newsletter/list',handler.newsletterSignupList)
+//Dynamic Routes
+//details shows one record
+app.get('/newsletter/detail/:email',handler.newsletterUser)
+//delete users by email
+app.get('/newsletter/delete/:email',handler.newsletterUserDelete)
 
 //error handling goes after the actual routes
 //custom 404 error pagae to handle non-existing routes, the default response is not found
@@ -75,3 +80,7 @@ app.listen(port,()=>{
     console.log(`Express is running on http://localhost:${port};`)
     console.log(`press Ctrl-C to terminate`)
 })
+
+//Post req.body.id
+//Get req.query.id
+//Route params req.params.id
