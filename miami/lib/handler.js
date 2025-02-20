@@ -52,7 +52,7 @@ exports.newsletterUserDelete = (req,res) =>{
     let newsList = {}
     // Retrieve all users filtering out the email we don't want
     // != not equal
-    newsList = eList.users.filter((user)=>{
+    newsList.users = eList.users.filter((user)=>{
         return user.email != req.params.email
     })
     console.log("Deleting " + req.params.email)
