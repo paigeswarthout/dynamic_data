@@ -16,13 +16,27 @@ app.set('view engine', 'handlebars');
 
 // To set the port execute: port=8080 node miami
 const port = process.env.port || 3000
-
+//
 let navigation = require("./data/navigation.json")
+//Import slideshow data
+let slideshow = require('./data/slideshow.json')
 
 //Create some routes
 app.get('/', (request, response)=>{
+// Filter slideshow object to get to home page only
+let slides = slideshow.slides.filter((slide)=>{
+    return slide.home == true
+})
     response.type("text/html")
-    response.render("home", {title:"Miami Travel Site", nav: navigation})
+    response.render("page", {
+        title:"Miami Travel Site",
+        nav: navigation,
+        slides: slides
+    })
+})
+
+app.get('/page/:page', (req,res)=>{
+
 })
 
 app.get('/beaches', (request, response)=>{
