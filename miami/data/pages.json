@@ -1,0 +1,24 @@
+{
+    "pages":[
+        {
+            "page":"nightlife",
+            "title":"Miami at Night",
+            "description":"A night in the 305 Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, vero. Non cupiditate maxime culpa ut accusantium natus omnis. Deserunt placeat nemo consequuntur reprehenderit illum maiores ratione, rerum ex totam debitis."
+        },
+        {
+            "page":"beaches",
+            "title":"Miami Beaches",
+            "description":"Fun in the sun Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, vero. Non cupiditate maxime culpa ut accusantium natus omnis. Deserunt placeat nemo consequuntur reprehenderit illum maiores ratione, rerum ex totam debitis."
+        },
+        {
+            "page":"food",
+            "title":"Food in Miami",
+            "description":"A night in the 305 Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, vero. Non cupiditate maxime culpa ut accusantium natus omnis. Deserunt placeat nemo consequuntur reprehenderit illum maiores ratione, rerum ex totam debitis."
+        },
+        {
+            "page":"downtown",
+            "title":"Downtown Miami",
+            "description":"A night in the 305 Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, vero. Non cupiditate maxime culpa ut accusantium natus omnis. Deserunt placeat nemo consequuntur reprehenderit illum maiores ratione, rerum ex totam debitis."
+        }
+    ]
+}

@@ -11,25 +11,20 @@
         },
         {
             "text":"Nightlife",
-            "href":"/nightlife"
+            "href":"/page/nightlife"
         },
         {
             "text":"Beaches",
-            "href":"/beaches"
+            "href":"/page/beaches"
         },
         {
-            "text":"About",
-            "href":"/about"
+            "text":"Food",
+            "href":"/page/food"
         },
         {
-            "text":"Newsletter Signup",
-            "href":"/newsletter-signup"
-        },
-        {
-            "text":"Newsletter List",
-            "href":"/newsletter/list"
+            "text":"Downtown",
+            "href":"/page/downtown"
         }
-
     ]
 
  }

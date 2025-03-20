@@ -2,6 +2,8 @@
 const express = require('express')
 
 const app = express()
+//setup static routing
+app.use(express.static('./public'))
 
 const bodyParser = require('body-parser')
 
@@ -20,6 +22,12 @@ const port = process.env.port || 3000
 let navigation = require("./data/navigation.json")
 //Import slideshow data
 let slideshow = require('./data/slideshow.json')
+//Import Gallery data
+let gallery = require('./data/gallery.json')
+//Import page data
+let content = require('./data/pages.json')
+//Import destinations
+let destinations = require('./data/destinations.json')
 
 //Create some routes
 app.get('/', (request, response)=>{
@@ -31,11 +39,37 @@ let slides = slideshow.slides.filter((slide)=>{
     response.render("page", {
         title:"Miami Travel Site",
         nav: navigation,
-        slides: slides
+        slides: slides,
+        images: gallery.images
     })
 })
-
+//Dynamic routes for pages
 app.get('/page/:page', (req,res)=>{
+// Filter pages object to get to page from :page req.params.page
+    let page = content.pages.filter((item)=>{
+        return item.page == req.params.page
+    })
+    //page is an array with just 1 item. we access the position 0 to get the object alone
+
+    // Filter slideshow object to get to home page only
+let slides = slideshow.slides.filter((slide)=>{
+    return slide.page == req.params.page
+})
+
+let dest = destinations.locations.filter((loc)=>{
+    return loc.page == req.params.page
+})
+
+    res.type("text/html")
+    console.log(page)
+    res.render("page", {
+        title: page[0].title,
+        description: page[0].description,
+        locations: dest,
+        nav: navigation,
+        slides: slides,
+        images: gallery.images
+    })
 
 })
 

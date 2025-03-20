@@ -1,0 +1,58 @@
+{
+    "locations":[
+        {
+            "page":"nightlife",
+            "name":"Factory Town",
+            "description":"Praesentium facere, perferendis explicabo autem sapiente inventore similique iste voluptatem enim illo sint hic dignissimos debitis provident in eos placeat saepe.",
+            "image":"/images/destinations/destination.jpg"
+        },
+        {
+            "page":"nightlife",
+            "name":"Titanic",
+            "description":"Praesentium facere, perferendis explicabo autem sapiente inventore similique iste voluptatem enim illo sint hic dignissimos debitis provident in eos placeat saepe.",
+            "image":"/images/destinations/destination.jpg"
+        },
+        {
+            "page":"nightlife",
+            "name":"Club Space",
+            "description":"Praesentium facere, perferendis explicabo autem sapiente inventore similique iste voluptatem enim illo sint hic dignissimos debitis provident in eos placeat saepe.",
+            "image":"/images/destinations/destination.jpg"
+        },
+        {
+            "page":"nightlife",
+            "name":"E11even",
+            "description":"Praesentium facere, perferendis explicabo autem sapiente inventore similique iste voluptatem enim illo sint hic dignissimos debitis provident in eos placeat saepe.",
+            "image":"/images/destinations/destination.jpg"
+        },
+        {
+            "page":"nightlife",
+            "name":"Bodega",
+            "description":"Praesentium facere, perferendis explicabo autem sapiente inventore similique iste voluptatem enim illo sint hic dignissimos debitis provident in eos placeat saepe.",
+            "image":"/images/destinations/destination.jpg"
+        },
+        {
+            "page":"beaches",
+            "name":"South Beach",
+            "description":"Praesentium facere, perferendis explicabo autem sapiente inventore similique iste voluptatem enim illo sint hic dignissimos debitis provident in eos placeat saepe.",
+            "image":"/images/destinations/destination.jpg"
+        },
+        {
+            "page":"beaches",
+            "name":"Crandon Park",
+            "description":"Praesentium facere, perferendis explicabo autem sapiente inventore similique iste voluptatem enim illo sint hic dignissimos debitis provident in eos placeat saepe.",
+            "image":"/images/destinations/destination.jpg"
+        },
+        {
+            "page":"beaches",
+            "name":"Cape Florida",
+            "description":"Praesentium facere, perferendis explicabo autem sapiente inventore similique iste voluptatem enim illo sint hic dignissimos debitis provident in eos placeat saepe.",
+            "image":"/images/destinations/destination.jpg"
+        },
+        {
+            "page":"beaches",
+            "name":"Hobie",
+            "description":"Praesentium facere, perferendis explicabo autem sapiente inventore similique iste voluptatem enim illo sint hic dignissimos debitis provident in eos placeat saepe.",
+            "image":"/images/destinations/destination.jpg"
+        }
+    ]
+}
