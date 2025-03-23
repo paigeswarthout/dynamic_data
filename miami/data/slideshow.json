@@ -1,14 +1,24 @@
 {
     "slides": [
         {
+            "url":"/images/slides/slide4.jpg",
+            "home":false,
+            "page":"beaches"
+        },
+        {
             "url":"/images/slides/slide1.jpg",
             "home":true,
             "page":"beaches"
         },
         {
-            "url":"/images/slides/slide2.jpg",
-            "home":false,
-            "page":"nightlife"
+            "url":"/images/slides/slide6.jpg",
+            "home":true,
+            "page":"beaches"
+        },
+        {
+            "url":"/images/slides/slide13.jpg",
+            "home":true,
+            "page":"beaches"
         },
         {
             "url":"/images/slides/slide3.jpg",
@@ -16,19 +26,59 @@
             "page":"nightlife"
         },
         {
-            "url":"/images/slides/slide4.jpg",
-            "home":false,
-            "page":"nightlife"
-        },
-        {
-            "url":"/images/slides/slide5.jpg",
+            "url":"/images/slides/slide10.jpg",
             "home":true,
             "page":"nightlife"
         },
         {
-            "url":"/images/slides/slide6.jpg",
-            "home":false,
+            "url":"/images/slides/slide11.jpg",
+            "home":true,
             "page":"nightlife"
+        },
+        {
+            "url":"/images/slides/slide12.jpg",
+            "home":true,
+            "page":"nightlife"
+        },
+        {
+            "url":"/images/slides/slide2.jpg",
+            "home":true,
+            "page":"food"
+        },
+        {
+            "url":"/images/slides/slide7.jpg",
+            "home":true,
+            "page":"food"
+        },
+        {
+            "url":"/images/slides/slide8.jpg",
+            "home":true,
+            "page":"food"
+        },
+        {
+            "url":"/images/slides/slide9.jpg",
+            "home":true,
+            "page":"food"
+        },
+        {
+            "url":"/images/slides/slide5.jpg",
+            "home":true,
+            "page":"downtown"
+        },
+        {
+            "url":"/images/slides/slide14.jpg",
+            "home":true,
+            "page":"downtown"
+        },
+        {
+            "url":"/images/slides/slide15.jpg",
+            "home":true,
+            "page":"downtown"
+        },
+        {
+            "url":"/images/slides/slide16.jpg",
+            "home":true,
+            "page":"downtown"
         }
     ]
 }

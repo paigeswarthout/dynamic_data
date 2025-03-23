@@ -83,9 +83,14 @@ app.get('/nightlife', (request, response)=>{
     response.render("page", {title:"Miami Nightlife", nav: navigation})
 })
 
-app.get('/about', (request, response)=>{
+app.get('/food', (request, response)=>{
     response.type("text/html")
-    response.render("page", {title:"About Miami", nav: navigation})
+    response.render("page", {title:"Food in Miami", nav: navigation})
+})
+
+app.get('/downtown', (request, response)=>{
+    response.type("text/html")
+    response.render("page", {title:"Downtown Miami", nav: navigation})
 })
 // Query, params, and body
 app.get('/search', (request, response)=>{

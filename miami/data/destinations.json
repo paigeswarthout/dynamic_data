@@ -3,56 +3,122 @@
         {
             "page":"nightlife",
             "name":"Factory Town",
-            "description":"Praesentium facere, perferendis explicabo autem sapiente inventore similique iste voluptatem enim illo sint hic dignissimos debitis provident in eos placeat saepe.",
-            "image":"/images/destinations/destination.jpg"
+            "description":"Tucked into north Miami, Factory Town is an open-air warehouse venue known for underground electronic music, immersive visuals, and parties that go well past sunrise.",
+            "image":"/images/destinations/factory-town.jpg"
         },
         {
             "page":"nightlife",
-            "name":"Titanic",
-            "description":"Praesentium facere, perferendis explicabo autem sapiente inventore similique iste voluptatem enim illo sint hic dignissimos debitis provident in eos placeat saepe.",
-            "image":"/images/destinations/destination.jpg"
+            "name":"LIV",
+            "description":"Located inside the iconic Fontainebleau Hotel is one of Miami’s most legendary nightclubs, blending luxury and high-energy vibes with top DJs, and wild light shows.",
+            "image":"/images/destinations/LIV.webp"
         },
         {
             "page":"nightlife",
             "name":"Club Space",
-            "description":"Praesentium facere, perferendis explicabo autem sapiente inventore similique iste voluptatem enim illo sint hic dignissimos debitis provident in eos placeat saepe.",
-            "image":"/images/destinations/destination.jpg"
+            "description":"A Miami nightlife staple, Club Space is famous for its marathon dance parties and sunrise rooftop sets. Perfect for EDM lovers who never want the night to end.",
+            "image":"/images/destinations/space.jpg"
         },
         {
             "page":"nightlife",
             "name":"E11even",
-            "description":"Praesentium facere, perferendis explicabo autem sapiente inventore similique iste voluptatem enim illo sint hic dignissimos debitis provident in eos placeat saepe.",
-            "image":"/images/destinations/destination.jpg"
+            "description":"Part club, part cabaret, E11EVEN is a 24/7 club in downtown Miami with live performances, aerialists, and a high-energy vibe, blurring the line between party and show.",
+            "image":"/images/destinations/e11even.jpg"
         },
         {
             "page":"nightlife",
-            "name":"Bodega",
-            "description":"Praesentium facere, perferendis explicabo autem sapiente inventore similique iste voluptatem enim illo sint hic dignissimos debitis provident in eos placeat saepe.",
-            "image":"/images/destinations/destination.jpg"
+            "name":"Vendome",
+            "description":"Located in South Beach, Vendome blends luxury with cutting-edge sound and design. Known for stylish crowds and elevated nightlife, it’s where glam meets bass.",
+            "image":"/images/destinations/vendome.jpeg"
         },
         {
             "page":"beaches",
             "name":"South Beach",
-            "description":"Praesentium facere, perferendis explicabo autem sapiente inventore similique iste voluptatem enim illo sint hic dignissimos debitis provident in eos placeat saepe.",
-            "image":"/images/destinations/destination.jpg"
+            "description":"Miami’s most iconic beach—famous for its vibrant energy, Art Deco views, and nonstop action on and off the sand, day or night.",
+            "image":"/images/destinations/southbeach.jpg"
         },
         {
             "page":"beaches",
             "name":"Crandon Park",
-            "description":"Praesentium facere, perferendis explicabo autem sapiente inventore similique iste voluptatem enim illo sint hic dignissimos debitis provident in eos placeat saepe.",
-            "image":"/images/destinations/destination.jpg"
+            "description":"A serene beach on Key Biscayne with calm waters, shady palm trees, and family-friendly vibes perfect for a relaxing, nature-filled day outdoors.",
+            "image":"/images/destinations/crandonpark.jpg"
         },
         {
             "page":"beaches",
             "name":"Cape Florida",
-            "description":"Praesentium facere, perferendis explicabo autem sapiente inventore similique iste voluptatem enim illo sint hic dignissimos debitis provident in eos placeat saepe.",
-            "image":"/images/destinations/destination.jpg"
+            "description":"Home to a historic lighthouse, Cape Florida is a quiet coastal escape with natural beauty, scenic bike trails, and one of Miami’s most picturesque shorelines.",
+            "image":"/images/destinations/capeflorida.jpg"
         },
         {
             "page":"beaches",
             "name":"Hobie",
-            "description":"Praesentium facere, perferendis explicabo autem sapiente inventore similique iste voluptatem enim illo sint hic dignissimos debitis provident in eos placeat saepe.",
-            "image":"/images/destinations/destination.jpg"
+            "description":"A go-to spot for windsurfers, dog lovers, and chill vibes, Hobie Beach is breezy, open, and just minutes from downtown Miami’s bustle.",
+            "image":"/images/destinations/hobie.webp"
+        },
+        {
+            "page":"beaches",
+            "name":"Sunny Isles",
+            "description":"Nestled between Miami and Fort Lauderdale, this clean, upscale beach offers peaceful vibes, soft sand, and stunning high-rise ocean views all around.",
+            "image":"/images/destinations/sunnyisles.jpg"
+        },
+        {
+            "page":"food",
+            "name":"Carbone",
+            "description":"A glamorous throwback to classic Italian-American dining with signature spicy rigatoni, tuxedoed waiters, and a splash of NYC cool.",
+            "image":"/images/destinations/carbone.jpeg"
+        },
+        {
+            "page":"food",
+            "name":"Queen",
+            "description":"A lavish, Art Deco-inspired supper club blending upscale Japanese cuisine with show-stopping décor and nightlife energy. Dining here feels like a performance.",
+            "image":"/images/destinations/queen.jpeg"
+        },
+        {
+            "page":"food",
+            "name":"Paperfish Sushi",
+            "description":"A stylish Nikkei restaurant in Brickell, Paperfish serves up Peruvian-Japanese fusion with sleek vibes, creative rolls, and Instagram-worthy plating.",
+            "image":"/images/destinations/paperfish.jpeg"
+        },
+        {
+            "page":"food",
+            "name":"Bâoli",
+            "description":"Where dinner turns into a party—Bâoli mixes Mediterranean-Asian fusion, high-end cocktails, and South Beach glamour for a truly vibrant night out",
+            "image":"/images/destinations/baoli.jpeg"
+        },
+        {
+            "page":"food",
+            "name":"Jaya at The Setai",
+            "description":"An elegant courtyard restaurant serving elevated pan-Asian dishes in a serene, luxurious setting—complete with nightly live music and fire dancers.",
+            "image":"/images/destinations/jaya.jpg"
+        },
+        {
+            "page":"downtown",
+            "name":"Pérez Art Museum Miami",
+            "description":"A sleek, waterfront museum showcasing modern and contemporary art with stunning architecture and views of Biscayne Bay.",
+            "image":"/images/destinations/perez.jpeg"
+        },
+        {
+            "page":"downtown",
+            "name":"Bayfront Park",
+            "description":"A beautiful open green space right by the water—perfect for a stroll, outdoor concerts, or just taking in the city skyline.",
+            "image":"/images/destinations/bayfront.jpeg"
+        },
+        {
+            "page":"downtown",
+            "name":"Bayside Marketplace",
+            "description":"An open-air shopping and dining area with live music, boat tours, and tons of energy. Great for tourists and locals alike.",
+            "image":"/images/destinations/baysidemarket.jpeg"
+        },
+        {
+            "page":"downtown",
+            "name":"Frost Museum of Science",
+            "description":"A hands-on science museum featuring a massive aquarium, planetarium, and interactive exhibits—fun for all ages and perfect for a rainy day",
+            "image":"/images/destinations/frost.jpg"
+        },
+        {
+            "page":"downtown",
+            "name":"Adrienne Arsht Center for the Performing Arts",
+            "description":"Miami’s premier venue for Broadway shows, ballet, opera, and live music—perfect for a classy night out in the city.",
+            "image":"/images/destinations/pac.jpeg"
         }
     ]
 }
